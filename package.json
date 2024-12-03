@@ -2,16 +2,21 @@
   "name": "image-slider",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://amuthaselvi1993.github.io/JS-Adv-Oppgave-6-Image-gallery/",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
     "vite": "^6.0.1"
   },
   "dependencies": {
+    "gh-pages": "^6.2.0",
     "reveal.js": "^5.1.0"
   }
 }
