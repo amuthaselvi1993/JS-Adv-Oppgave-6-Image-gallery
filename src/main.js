@@ -11,7 +11,6 @@ import Markdown from "reveal.js/plugin/markdown/markdown.esm.js";
 const slider = document.getElementById("slider-group");
 console.log(slider);
 const baseUrl = "https://picsum.photos/v2/list";
-// const baseUrl = "https://picsum.photos/200";
 getImagesForSlideShow();
 async function getImagesForSlideShow() {
   try {
